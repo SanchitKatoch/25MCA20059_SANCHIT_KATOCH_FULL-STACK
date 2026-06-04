@@ -1,0 +1,32 @@
+Task: Student Marks Analysis
+
+You are given a list of student marks. The data should be fetched asynchronously using a Promise and setTimeout().
+
+[
+  { name: "Aman", marks: 85 },
+  { name: "Priya", marks: 45 },
+  { name: "Rohit", marks: 72 },
+  { name: "Neha", marks: 91 },
+  { name: "Karan", marks: 38 }
+]
+
+Requirements
+Create a function fetchStudents() that returns the data after a 2-second delay.
+Use async/await to get the data.
+Use map() to create an array containing only student names.
+Use filter() to get students who scored 50 or more marks.
+Use reduce() to calculate the total marks of all students.
+Display all results in the console.
+
+Names: ["Aman", "Priya", "Rohit", "Neha", "Karan"]
+
+Passed Students:
+[
+  { name: "Aman", marks: 85 },
+  { name: "Rohit", marks: 72 },
+  { name: "Neha", marks: 91 }
+]
+
+Total Marks: 331
+
+Bonus: Calculate the average marks using reduce().
